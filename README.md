@@ -4,7 +4,7 @@ Simple Tetris game made with tkinter, only using standard libraries.
 
 ### Utilisation
 
-> python \PATH_TO_FILE\tetris.py
+> python \PATH_TO_FILE\main.py
 
 Use arrows to move the elements and R to rotate them.
 
