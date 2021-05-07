@@ -494,10 +494,3 @@ class NamePrompt(tk.Frame):
         with open(DIR_PATH + '/data/score', 'wb+') as score_file:
             my_pickler = pickle.Pickler(score_file)
             my_pickler.dump(list_score)
-
-
-if __name__ == '__main__':
-    root = tk.Tk()
-    app = MainFrame(master=root)
-    app.mainloop()
-
